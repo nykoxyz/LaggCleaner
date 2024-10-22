@@ -7,13 +7,8 @@ The plugin completely resolves the entity lag of versions 1.14/1.15/1.16/1.17/1.
 Has no method been able to solve entity lag so far?
 Use this plugin!
 
-이 플러그인은 버전 1.14/1.15/1.16/1.17/1.18/1.19의 엔티티 랙을 완전히 해결합니다!
-
 ### How does it works?
 Minecraft tracks a lot of entities, even if they are outside the tracking range of the player, that's a normal behavior but is a tps killer for 1.14.4 to 1.19 servers with more than 30 players. So what this plugin do is untrack those entities every configured ticks and track them again if the player is near.
-
-### 어떻게 작동합니까?
-마인크래프트는 플레이어의 추적 범위를 벗어나더라도 많은 실체를 추적하는데, 이는 정상적인 행동이지만 30명 이상의 플레이어를 보유한 1.14.4~1.19 서버의 경우 tps를 매우 잡아먹습니다. 따라서 이 플러그인은 설정된 모든 틱을 추적 해제하고 플레이어가 근처에 있을 경우 다시 추적합니다.
 
 ```yaml
 ####################################################################################################
@@ -29,13 +24,11 @@ Minecraft tracks a lot of entities, even if they are outside the tracking range 
 #                                                                                                  #
 #                                                                                                  #
 #                                                                                                  #
-#                                       MiniLuca#7822                                              #
+#                                       nykoxyz                                                    #
 #                            Complete lag resolution in servers!                                   #
 #                                  [ 1.14.4    -    1.19 ]                                         #
 #                                                                                                  #
-#  SPIGOT:      https://www.spigotmc.org/resources/l-clearlag.98464/                               #
-# └ https://www.spigotmc.org/resources/entitytrackerfixer-fix-1-14-4-1-16-2-entitytick-lag.70902/  #
-# └ https://www.spigotmc.org/resources/villager-optimiser-1-14-2-1-16-5.68517/                     #
+#                                                                                                  #
 #                                                                                                  #
 ####################################################################################################
 
@@ -114,8 +107,7 @@ entity-limit:
 
 
 # Beta version
-# https://www.spigotmc.org/resources/villager-optimiser-1-14-2-1-16-5.68517/
-villager-enable: false
+# villager-enable: false
 # - Default value(s): 600
 ticks-per-allow-search: 600
 
@@ -124,13 +116,8 @@ ticks-per-allow-search: 600
 version: 1.7.1
 ```
 
-MiniLuca#7822
+nykoxyz
 
-Plugin statistics (플러그인 통계)
-https://bstats.org/plugin/bukkit/L-Clearlag/13638
-
-So far, 100,000,000 entities have been removed!
-지금까지 100,000,000 마리의 엔티티를 제거했습니다!
 
 #minecraft entity lag fix
 
